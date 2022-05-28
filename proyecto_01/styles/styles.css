@@ -38,6 +38,8 @@ h1{
     background-size: cover;
     height: 450px;
     position: relative;
+
+
 }
 
 .div-imagen{
@@ -54,4 +56,39 @@ h1{
 .div-imagen h2,
 .div-imagen p{
     color: var(--blanco);
+}
+
+.boton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 10px 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+body{
+    background-image: linear-gradient(to top, #dfe9f3 0%, var(--blanco) 100%);
+}
+
+/* // En proceso para la proxima clase v:
+.contenedor{
+
+}
+*/
+
+.sombra{
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    background-color: var(--blanco);
+    padding: 20px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+h1,h2,h3{
+    text-align: center;
 }
